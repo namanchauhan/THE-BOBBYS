@@ -358,11 +358,11 @@ h3 .menu-item-title
         padding: 0px;
       
     }
-    #dish01-tile , #dish02-tile
+   /* #dish01-tile , #dish02-tile
     {
         width: 360px;
         margin: 0 auto 15px;
-    }
+    }*/
     .menu-item-tile .menu-item-price
     {
         text-align: center;
@@ -383,7 +383,7 @@ h3 .menu-item-title
         font-size: 6vw;
     } 
     /*home page*/
-    #dumbbells-tile , #machines-tile
+    #dish01-tile , #dish02-tile , #map-tile
     {
         width: 280px;
         margin: 0 auto 15px;
