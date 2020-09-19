@@ -1,0 +1,401 @@
+body {
+    /* body */
+    background-color: maroon;
+    font-size: 16px;
+    color: white;
+}
+
+#header-nav {/* navbar background*/
+    background-color:burlywood ;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img{/* company logo*/
+    background: url('image/logo-img-lg.jpg') ;
+	width:100px;
+	height:100px;
+    margin: 10px 15px 10px 0px;
+    
+}
+
+.navbar-brand{/*padding for company name*/
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    /*Company Name*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{/* company name designing */
+    text-decoration: none;
+}
+
+.navbar-brand p{
+    /*Slogan/Description*/
+    color:black;
+    text-transform: uppercase;
+    font-size: .9em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span{
+    /*Slogan/Description img*/
+    vertical-align: middle;
+}
+
+#nav-list {/*navbar options*/
+    margin-top: 10px;
+}
+#nav-list a {/*nav option style*/
+    color:maroon;
+    text-align: center;
+}
+#nav-list a:hover {/*nav hover background*/
+    background: #E7E7E7;
+}
+#nav-list a span {/*nav option style*/
+    font-size: 1.8em;
+}
+  
+#phone {/*nav option style*/
+    margin-top: 5px;
+}
+#phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+    color:red;
+    text-align: right;
+    padding-right: 15px;
+}
+  
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid maroon;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+   margin-top: -30px;
+}
+/*END HEADER*/
+/*FOOTER*/
+.panel-footer
+{
+    margin-top:30px;
+    padding-top:35px;
+    padding-bottom:30px;
+    background-color: #000;
+    border-top: 0;
+
+}
+.panel-footer div.row
+{
+    margin-bottom: 35px;
+
+}
+#hours , #address
+{
+    line-height: 2;
+}
+#hours > span , #address > span
+{
+    font-size: 1.3em;
+}
+/*END FOOTER*/
+/*home page*/
+.container.jumbotron
+{
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+   
+}
+#dish01-tile , #dish02-tile , #map-tile
+{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border:2px solid #3f0c1f;
+    overflow: hidden;
+}
+#dish01-tile:hover , #dish02-tile:hover , #map-tile:hover
+{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#dish01-tile
+{
+    background: url('image/dish-1.jpg') no-repeat;
+    background-position: center;
+}
+#dish02-tile
+{
+    background: url('image/dish-2.jpg') no-repeat;
+    background-position: center;
+    width:100%;
+}
+#dish01-tile span , #dish02-tile span , #map-tile span
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align-last: center;
+    font-size-adjust: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .9;
+}
+/*end home page*/
+/***** dish 01-page*****/
+.category-tile
+{
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.category-tile span
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+    opacity: .8;
+}
+.category-tile:hover
+{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#dish-01-tile + div
+{
+    margin-bottom: 50px;
+}
+
+/***** end of dish 01- page******/
+/**single category page**/
+.menu-item-tile
+{
+    margin-bottom: 25px;
+}
+.menu-item-tile hr
+{
+    width: 90%;
+}
+.menu-item-tile .menu-item-price
+{
+    font-size: 1.1em;
+    text-align: right;
+}
+.menu-item-tile .menu-item-price span
+{
+    font-size: .7em;
+}
+.menu-item-photo
+{
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    padding: 0;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div
+{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+.menu-item-description
+{
+    padding-right:30px;
+}
+h3 .menu-item-title
+{
+    margin: 0 0 10px;
+}
+.menu-item-details
+{
+    font-size: .9em;
+    font-style: oblique;
+}
+#about-tile
+{
+    font-size: 1.2em;
+    border: 2px solid #cccccc;
+    padding: 10px;
+    margin: 30px;
+}
+/************************************************************LARGE DEVICE******************************************************/ 
+
+      @media (min-width:1200px)
+{
+    .jumbotron
+    {
+        background: url('image/main-img-1200.jpg') no-repeat;
+        height: 675px;
+    }
+
+}
+/******************************************************************MEDIUM DEVICE***************************************************/
+
+      @media(min-width:992px) and (max-width:1199px)
+{
+    /*header*/
+   #logo-img{
+       background: url('image/logo-img-sm.jpg') no-repeat;
+       width: 120px;
+       height: 120px;
+       margin: 5px 5px 5px 0px;
+   }
+   /*end header*/
+   /*home page*/
+   .jumbotron
+   {
+       background: url('image/main-img-992.jpg') no-repeat;
+       height: 558px;
+   }
+   /*end home page*/
+
+}
+/*********************************************************************SMALL DEVICE******************************************************/ 
+
+       @media(min-width:768px) and (max-width:991px)
+{
+    .jumbotron
+    {
+        background: url('image/main-img-768.jpg') no-repeat;
+        height: 448px;
+        
+    }
+
+}
+/********************************************************************** EXTRA SMALL DEVICE*******************************************/
+
+       @media(max-width:767px)
+{
+    /*header*/
+    .navbar-brand
+    {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 
+    { /*gym name*/
+        padding-top: 10px;
+        font-size: 5vw; /*1vw= 1% of viewport width*/
+    }
+    .navbar-brand p
+    { /* certified trainer*/
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    #collapsable-nav a 
+    { /*collapsed nav menu glyph*/
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span 
+    {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #call-btn > a 
+    {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding:10px;
+        border: 2px solid #fff;
+        background-color: burlywood;
+        color: #951c49;
+    }
+    #xs-quries
+    {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+    /**end header*/
+   
+    /*FOOTER*/
+    .panel-footer section
+    {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section hr
+    {
+        width: 50%;
+    }
+    /*END OF FOOTER*/
+    /*home page*/
+    .container .jumbotron
+    {
+        margin-top: 30px;
+        padding: 0px;
+      
+    }
+    #dish01-tile , #dish02-tile
+    {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+    .menu-item-tile .menu-item-price
+    {
+        text-align: center;
+    }
+    .menu-item-description
+    {
+        text-align: center;
+    }
+
+}
+/*************************************************SUPER EXTRA SMALL DEVICE**********************************************/
+@media (max-width:479px)
+{
+    /*header*/
+    .navbar-brand h1 
+    {
+        padding-top: 5px;
+        font-size: 6vw;
+    } 
+    /*home page*/
+    #dumbbells-tile , #machines-tile
+    {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+    .col-xxs-12
+    {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+   
+}
